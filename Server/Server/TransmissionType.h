@@ -1,0 +1,9 @@
+#pragma once
+
+enum class TransmissionType
+{
+	CONNECT = 1, DISCONNECT, SENDFILE, 
+	RECEIVEFILE, REJECT, REQUEST, 
+	LISTENING, CHOICE, NOTIFICATION
+};
+
